@@ -195,6 +195,13 @@
     [self presentImagePickerController];
 }
 
+- (void)showGalleryImagePickerFromViewController:(UIViewController *)viewController
+{
+	self.presentingViewController = viewController;
+	[self showGalleryImagePicker];
+}
+
+
 #pragma mark -
 #pragma mark - UIActionSheetDelegate
 

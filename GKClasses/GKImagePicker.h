@@ -21,6 +21,7 @@
 @property (nonatomic, assign) BOOL useFrontCameraAsDefault;
 
 - (void)showActionSheetOnViewController:(UIViewController *)viewController onPopoverFromView:(UIView *)popoverView;
+- (void)showGalleryImagePickerFromViewController:(UIViewController *)viewController;
 
 @end
 
